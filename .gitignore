@@ -1,0 +1,40 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+.claude/
+
+# OS-generated
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Dependencies (in case skills add tooling later)
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Local test outputs
+test-output/
+.pytest_cache/
+
+# Personal local notes (never publish)
+NOTES.local.md
+TODO.local.md
