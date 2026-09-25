@@ -29,8 +29,7 @@ description: 設計書をもとにコードとテストを実装し、コミッ�
    - その後、リモートにプッシュします（`git push`）。
 
 5. **PRの更新とマージ**
-   - GitHub CLI (`gh` コマンド) を使って、Draft状態のPRを「Ready for review」に変更するよう提案します。
-   - `gh pr ready`
+   - PRがまだ無ければ、GitHub CLI で作成します（`gh pr create`）。Draft状態のPRがあれば「Ready for review」に変更するよう提案します（`gh pr ready`）。
    - 必要であれば、CIの通過を待ってから `gh pr merge` までをサポートします。
 
 ## 注意事項

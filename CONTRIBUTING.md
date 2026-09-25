@@ -7,11 +7,9 @@ Thank you for considering contributing to **xharumi-skills**! This monorepo welc
 ## 🤝 Ways to Contribute
 
 1. **Improve existing skills** — Refine prompts, add edge cases, enhance the chained workflow
-2. **Add framework-specific patterns** — e.g., `xharumi-sec` threat models for Next.js, FastAPI, Rails
-3. **Add mentor archetypes** — Help `xharumi-distiller` extract more thinkers' models
-4. **Update default rules** — `xharumi-token-detox` ignore patterns for new frameworks
-5. **Translate** — Add languages beyond EN / JA / ZH
-6. **Write a new skill** — Propose via Issue first
+2. **Add framework-specific patterns** — e.g., security self-check items in `xharumi-dev` for Next.js, FastAPI, Rails
+3. **Translate** — Add languages beyond EN / JA / ZH
+4. **Write a new skill** — Propose via Issue first
 
 ---
 
@@ -26,8 +24,8 @@ Thank you for considering contributing to **xharumi-skills**! This monorepo welc
 
 2. **Make your changes** with clear commit messages following [Conventional Commits](https://www.conventionalcommits.org/):
    ```
-   feat(xharumi-sec): add Next.js middleware threat model
-   fix(xharumi-token-detox): handle .gitignore with comments
+   feat(xharumi-dev): add Next.js middleware checks to the security self-check
+   fix(xharumi-idea): clarify the PRD handoff format
    docs(README): update install instructions for v2
    ```
 
